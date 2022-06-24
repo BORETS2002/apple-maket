@@ -1,0 +1,319 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    url("/fonts/roboto-v30-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("/fonts/ roboto-v30-latin-700.woff2") format("woff2"),
+    url("/fonts/roboto-v30-latin-700.woff") format("woff");
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", "ARIAL", sans-serif;
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.site-main {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+img {
+  display: block;
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1040px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.header-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.icon-apple {
+  max-width: 35px;
+  height: 42px;
+}
+.navbar-list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.navbar-itams {
+  list-style: none;
+  margin-bottom: 3px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
+  border-bottom: 3px solid transparent;
+  -webkit-transform: rotate(0.16deg);
+  -ms-transform: rotate(0.16deg);
+  transform: rotate(0.16deg);
+}
+
+.navbar-itams:hover {
+  border-bottom: 3px solid #333333;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.navbar-itams:not(:last-child) {
+  margin-right: 30px;
+}
+.navbar-itams-text {
+  border: none;
+  color: #666666;
+}
+
+.navbar-href {
+  text-decoration: none;
+}
+
+.intro {
+  padding-top: 170px;
+  padding-bottom: 197px;
+  background-image: url("/img/watches.png");
+  background-size: 587px;
+  background-position: calc(50% + 535px) calc(50% - -25px);
+  background-repeat: no-repeat;
+}
+
+.intro-box {
+  width: 500px;
+}
+.booss-intro {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+
+  color: #000000;
+}
+.minitext-intro {
+  margin: 0;
+  margin-bottom: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.minitext-intro::before {
+  content: "";
+  margin-right: 40px;
+  border-left: 3px solid #888888;
+}
+.navbar-itams-twoo {
+  list-style: none;
+  border: none;
+  border-bottom: 1px solid #333333;
+}
+
+.intro-href {
+  text-decoration: none;
+  padding: 12px 38px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #c9514c;
+}
+
+.secont-three {
+  padding-top: 68px;
+}
+.three-list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.three-itms {
+  list-style: none;
+  width: 280px;
+}
+
+.three-itms:not(:last-child) {
+  margin-right: 80px;
+}
+
+.three-big-text {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+
+  color: #222222;
+}
+.three-mini-text {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #333333;
+}
+.box-kvadrat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.kvadrat-mini {
+  width: 8px;
+  height: 8px;
+  background: #dddddd;
+  margin-right: 10px;
+}
+.box-nur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  height: 26px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ea625c;
+}
+
+.box-nur::before {
+  content: "";
+  margin-right: 10px;
+  width: 40px;
+  border-bottom: 3px solid #ea625c;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.box-nur:hover::before {
+  width: 60px;
+}
+
+.intro-twoo {
+  padding: 246px 0px 188px;
+  background-image: url("/img/watch-in-hand.png");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: calc(50% + 320px) calc(50%);
+}
+
+.end-site {
+  background-image: url("/img/runners.png");
+  padding: 240px 0px 252px 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50%) calc(50%);
+}
+
+.intro-box-three {
+  margin: 0;
+  margin-left: 525px;
+  margin-right: 50px;
+}
+
+.booss-intro-three {
+  color: #ffffff;
+}
+
+.minitext-intro-three {
+  color: #ffffff;
+}
+.intro-href-three {
+  padding: 12px 48px;
+  color: #ffffff;
+}
